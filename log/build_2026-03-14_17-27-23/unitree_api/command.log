@@ -1,0 +1,1 @@
+Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_api': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_api

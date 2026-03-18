@@ -1,0 +1,153 @@
+[0.022s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_sport_api
+[0.114s] -- The C compiler identification is GNU 9.4.0
+[0.200s] -- The CXX compiler identification is GNU 9.4.0
+[0.207s] -- Check for working C compiler: /usr/bin/cc
+[0.326s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.328s] -- Detecting C compiler ABI info
+[0.459s] -- Detecting C compiler ABI info - done
+[0.492s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.637s] -- Detecting CXX compiler ABI info
+[0.784s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Detecting CXX compile features
+[0.807s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.858s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.858s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.252s] -- Found unitree_go: 0.0.0 (/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/cmake)
+[1.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.461s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.512s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.896s] -- Found unitree_api: 0.0.0 (/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/cmake)
+[1.993s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.067s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.070s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.071s] -- Looking for pthread.h
+[2.198s] -- Looking for pthread.h - found
+[2.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.327s] -- Looking for pthread_create in pthreads
+[2.446s] -- Looking for pthread_create in pthreads - not found
+[2.446s] -- Looking for pthread_create in pthread
+[2.578s] -- Looking for pthread_create in pthread - found
+[2.582s] -- Found Threads: TRUE  
+[2.834s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.963s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.105s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.111s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.112s] -- Configured cppcheck include dirs: /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api/include;/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api/include/common;/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api/include/nlohmann
+[3.112s] -- Configured cppcheck exclude dirs and/or files: 
+[3.117s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.117s] -- Configured cpplint exclude dirs and/or files: 
+[3.120s] -- Added test 'lint_cmake' to check CMake code style
+[3.126s] -- Added test 'uncrustify' to check C / C++ code style
+[3.126s] -- Configured uncrustify additional arguments: 
+[3.127s] -- Added test 'xmllint' to check XML markup files
+[3.136s] -- Configuring done
+[3.164s] -- Generating done
+[3.176s] -- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_sport_api
+[3.200s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_sport_api
+[3.206s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_sport_api -- -j4 -l4
+[3.282s] [35m[1mScanning dependencies of target go2_sport_api[0m
+[3.282s] [35m[1mScanning dependencies of target vel_ctrl[0m
+[3.320s] [ 20%] [32mBuilding CXX object CMakeFiles/go2_sport_api.dir/src/common/ros2_sport_client.cpp.o[0m
+[3.376s] [ 60%] [32mBuilding CXX object CMakeFiles/vel_ctrl.dir/src/common/ros2_sport_client.cpp.o[0m
+[3.376s] [ 60%] [32mBuilding CXX object CMakeFiles/vel_ctrl.dir/src/vel_ctrl_repub.cpp.o[0m
+[6.934s] [ 80%] [32m[1mLinking CXX shared library libgo2_sport_api.so[0m
+[7.158s] [ 80%] Built target go2_sport_api
+[15.836s] [100%] [32m[1mLinking CXX executable vel_ctrl[0m
+[16.341s] [100%] Built target vel_ctrl
+[16.364s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_sport_api -- -j4 -l4
+[16.372s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_sport_api
+[16.389s] -- Install configuration: ""
+[16.389s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include
+[16.389s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/common
+[16.389s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/common/motor_crc.h
+[16.389s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/common/ros2_sport_client.h
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/adl_serializer.hpp
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/thirdparty
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/thirdparty/hedley/hedley.hpp
+[16.390s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/ordered_map.hpp
+[16.391s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/byte_container_with_subtype.hpp
+[16.391s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/json.hpp
+[16.391s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail
+[16.391s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/json_custom_base_class.hpp
+[16.392s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators
+[16.392s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/iterator_traits.hpp
+[16.392s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/iteration_proxy.hpp
+[16.392s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/primitive_iterator.hpp
+[16.392s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+[16.393s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/internal_iterator.hpp
+[16.393s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/iterators/iter_impl.hpp
+[16.393s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/string_concat.hpp
+[16.393s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input
+[16.393s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/binary_reader.hpp
+[16.394s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/lexer.hpp
+[16.394s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/json_sax.hpp
+[16.394s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/input_adapters.hpp
+[16.394s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/parser.hpp
+[16.395s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/input/position_t.hpp
+[16.395s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/output
+[16.395s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/output/output_adapters.hpp
+[16.395s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/output/binary_writer.hpp
+[16.396s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/output/serializer.hpp
+[16.396s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/string_escape.hpp
+[16.396s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/conversions
+[16.396s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/conversions/to_chars.hpp
+[16.397s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/conversions/to_json.hpp
+[16.397s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/conversions/from_json.hpp
+[16.397s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/macro_scope.hpp
+[16.397s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/abi_macros.hpp
+[16.397s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/hash.hpp
+[16.398s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/json_ref.hpp
+[16.398s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/exceptions.hpp
+[16.398s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/macro_unscope.hpp
+[16.398s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/json_pointer.hpp
+[16.398s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/value_t.hpp
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/cpp_future.hpp
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/type_traits.hpp
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std/end.hpp
+[16.399s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/call_std/begin.hpp
+[16.400s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/is_sax.hpp
+[16.400s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/std_fs.hpp
+[16.400s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/detected.hpp
+[16.400s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/identity_tag.hpp
+[16.400s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/detail/meta/void_t.hpp
+[16.401s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/include/include/nlohmann/json_fwd.hpp
+[16.401s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/lib/go2_sport_api/vel_ctrl
+[16.406s] -- Set runtime path of "/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/go2_sport_api/vel_ctrl" to ""
+[16.406s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/lib/libgo2_sport_api.so
+[16.407s] -- Set runtime path of "/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/libgo2_sport_api.so" to ""
+[16.408s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/library_path.sh
+[16.408s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/library_path.dsv
+[16.408s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/ament_index/resource_index/package_run_dependencies/go2_sport_api
+[16.409s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/ament_index/resource_index/parent_prefix_path/go2_sport_api
+[16.409s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/ament_prefix_path.sh
+[16.409s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/ament_prefix_path.dsv
+[16.410s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/path.sh
+[16.410s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/environment/path.dsv
+[16.410s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/local_setup.bash
+[16.410s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/local_setup.sh
+[16.411s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/local_setup.zsh
+[16.411s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/local_setup.dsv
+[16.411s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.dsv
+[16.411s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/ament_index/resource_index/packages/go2_sport_api
+[16.412s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/export_go2_sport_apiExport.cmake
+[16.412s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/export_go2_sport_apiExport-noconfig.cmake
+[16.412s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.413s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_libraries-extras.cmake
+[16.413s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.413s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/ament_cmake_export_targets-extras.cmake
+[16.413s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/go2_sport_apiConfig.cmake
+[16.414s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/cmake/go2_sport_apiConfig-version.cmake
+[16.414s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.xml
+[16.420s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_sport_api

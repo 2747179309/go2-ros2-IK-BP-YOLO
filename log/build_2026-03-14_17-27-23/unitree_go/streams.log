@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go
+[0.150s] -- The C compiler identification is GNU 9.4.0
+[0.254s] -- The CXX compiler identification is GNU 9.4.0
+[0.262s] -- Check for working C compiler: /usr/bin/cc
+[0.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.390s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.557s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.708s] -- Detecting CXX compiler ABI info
+[0.857s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Detecting CXX compile features
+[0.879s] -- Detecting CXX compile features - done
+[0.901s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.902s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.902s]   has asked CMake to find a package configuration file provided by
+[0.902s]   "ament_cmake", but CMake did not find one.
+[0.902s] 
+[0.902s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.902s]   any of the following names:
+[0.902s] 
+[0.902s]     ament_cmakeConfig.cmake
+[0.903s]     ament_cmake-config.cmake
+[0.903s] 
+[0.903s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.903s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.903s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.903s]   has been installed.
+[0.903s] 
+[0.903s] 
+[0.904s] -- Configuring incomplete, errors occurred!
+[0.904s] See also "/home/unitree/go2_ros2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".
+[0.909s] Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '1': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go

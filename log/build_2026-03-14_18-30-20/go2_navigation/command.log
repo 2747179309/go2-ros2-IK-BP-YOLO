@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
+Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation

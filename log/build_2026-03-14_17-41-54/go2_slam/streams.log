@@ -1,0 +1,52 @@
+[0.057s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_slam
+[0.374s] -- The C compiler identification is GNU 9.4.0
+[0.610s] -- The CXX compiler identification is GNU 9.4.0
+[0.618s] -- Check for working C compiler: /usr/bin/cc
+[1.006s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.008s] -- Detecting C compiler ABI info
+[1.356s] -- Detecting C compiler ABI info - done
+[1.381s] -- Detecting C compile features
+[1.383s] -- Detecting C compile features - done
+[1.396s] -- Check for working CXX compiler: /usr/bin/c++
+[1.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.821s] -- Detecting CXX compiler ABI info
+[2.226s] -- Detecting CXX compiler ABI info - done
+[2.269s] -- Detecting CXX compile features
+[2.270s] -- Detecting CXX compile features - done
+[2.283s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.072s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.229s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.233s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.235s] -- Added test 'lint_cmake' to check CMake code style
+[3.236s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.238s] -- Added test 'xmllint' to check XML markup files
+[3.243s] -- Configuring done
+[3.248s] -- Generating done
+[3.253s] -- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_slam
+[3.268s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_slam
+[3.270s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_slam -- -j4 -l4
+[3.495s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_slam -- -j4 -l4
+[3.496s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_slam
+[3.541s] -- Install configuration: ""
+[3.542s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/config
+[3.542s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/config/mapper_params_online_async.yaml
+[3.542s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/launch
+[3.542s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox.launch.py
+[3.542s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/ament_index/resource_index/package_run_dependencies/go2_slam
+[3.543s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/ament_index/resource_index/parent_prefix_path/go2_slam
+[3.543s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/environment/ament_prefix_path.sh
+[3.543s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/environment/ament_prefix_path.dsv
+[3.544s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/environment/path.sh
+[3.544s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/environment/path.dsv
+[3.544s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/local_setup.bash
+[3.544s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/local_setup.sh
+[3.545s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/local_setup.zsh
+[3.545s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/local_setup.dsv
+[3.545s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.dsv
+[3.546s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/ament_index/resource_index/packages/go2_slam
+[3.546s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/cmake/go2_slamConfig.cmake
+[3.546s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/cmake/go2_slamConfig-version.cmake
+[3.546s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.xml
+[3.567s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_slam

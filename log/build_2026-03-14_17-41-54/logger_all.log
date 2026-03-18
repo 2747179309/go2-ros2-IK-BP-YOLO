@@ -1,0 +1,720 @@
+[0.360s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.361s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa18d3400>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa18d3400>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa17a4af0>)
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.653s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/unitree/go2_ros2_ws'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'ros'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['cmake', 'python']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'cmake'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'python'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extensions ['python_setup_py']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'ros'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['cmake', 'python']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'cmake'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'python'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extensions ['python_setup_py']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main) by extension 'python_setup_py'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extensions ['python_setup_py']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/asset) by extension 'python_setup_py'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core) by extension 'ros'
+[0.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core' with type 'ros.ament_cmake' and name 'go2_core'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extension 'ignore_ament_install'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extensions ['colcon_meta']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation) by extension 'ros'
+[0.691s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation' with type 'ros.ament_cmake' and name 'go2_navigation'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception) by extension 'ros'
+[0.693s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception' with type 'ros.ament_cmake' and name 'go2_perception'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extension 'ignore_ament_install'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extensions ['colcon_pkg']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extension 'colcon_pkg'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extensions ['colcon_meta']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extension 'colcon_meta'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extensions ['ros']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam) by extension 'ros'
+[0.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam' with type 'ros.ament_cmake' and name 'go2_slam'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'colcon_meta'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'ros'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['cmake', 'python']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'cmake'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'python'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extensions ['python_setup_py']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs) by extension 'python_setup_py'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub) by extension 'ros'
+[0.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub' with type 'ros.ament_cmake' and name 'go2_h264_repub'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extensions ['colcon_pkg']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extension 'colcon_pkg'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api) by extension 'ros'
+[0.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api' with type 'ros.ament_cmake' and name 'go2_sport_api'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extensions ['colcon_pkg']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extension 'colcon_pkg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extensions ['colcon_meta']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api) by extension 'ros'
+[0.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.740s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/foxy
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_target' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_clean_first' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'cmake_force_configure' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'ament_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'go2_h264_repub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.901s] DEBUG:colcon.colcon_core.verb:Building package 'go2_h264_repub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_h264_repub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_h264_repub', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub', 'symlink_install': False, 'test_result_base': None}
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.902s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.902s] DEBUG:colcon.colcon_core.verb:Building package 'go2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_navigation', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_target' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] DEBUG:colcon.colcon_core.verb:Building package 'go2_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_perception', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception', 'symlink_install': False, 'test_result_base': None}
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_args' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_target' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.904s] DEBUG:colcon.colcon_core.verb:Building package 'go2_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_slam', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam', 'symlink_install': False, 'test_result_base': None}
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.906s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/unitree_api', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api', 'symlink_install': False, 'test_result_base': None}
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.907s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/unitree_go', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go', 'symlink_install': False, 'test_result_base': None}
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_args' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_target' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_sport_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.908s] DEBUG:colcon.colcon_core.verb:Building package 'go2_sport_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_sport_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_sport_api', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api', 'symlink_install': False, 'test_result_base': None}
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_target' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.909s] DEBUG:colcon.colcon_core.verb:Building package 'go2_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unitree/go2_ros2_ws/build/go2_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unitree/go2_ros2_ws/install/go2_core', 'merge_install': False, 'path': '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core', 'symlink_install': False, 'test_result_base': None}
+[0.909s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api'
+[0.916s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go' with build type 'ament_cmake'
+[0.926s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub' with build type 'ament_cmake'
+[0.936s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.945s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation' with build type 'ament_cmake'
+[0.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation'
+[0.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_api
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_h264_repub
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation
+[1.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+[1.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
+[1.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_navigation)
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation' for CMake module files
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_navigation', 'cmake_prefix_path')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.dsv'
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.sh'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/bin'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/pkgconfig/go2_navigation.pc'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/bin'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.sh'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.bash'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.zsh'
+[1.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_navigation/share/colcon-core/packages/go2_navigation)
+[1.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_navigation)
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation' for CMake module files
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation' for CMake config files
+[1.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_navigation', 'cmake_prefix_path')
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/hook/cmake_prefix_path.sh'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/bin'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/pkgconfig/go2_navigation.pc'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/lib/python3.8/site-packages'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_navigation/bin'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.sh'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.bash'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.zsh'
+[1.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_navigation/share/colcon-core/packages/go2_navigation)
+[1.858s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception' with build type 'ament_cmake'
+[1.858s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception'
+[1.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.859s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_perception
+[3.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_h264_repub
+[3.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_h264_repub -- -j4 -l4
+[3.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_api
+[3.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_api -- -j4 -l4
+[4.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go
+[4.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_go -- -j4 -l4
+[8.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_perception
+[8.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_perception -- -j4 -l4
+[33.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_h264_repub -- -j4 -l4
+[33.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_h264_repub
+[33.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_h264_repub)
+[33.609s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub' for CMake module files
+[33.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_h264_repub
+[33.612s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub' for CMake config files
+[33.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_h264_repub', 'cmake_prefix_path')
+[33.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.ps1'
+[33.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.dsv'
+[33.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.sh'
+[33.617s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib'
+[33.617s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/bin'
+[33.617s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib/pkgconfig/go2_h264_repub.pc'
+[33.618s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib/python3.8/site-packages'
+[33.618s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/bin'
+[33.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.ps1'
+[33.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.dsv'
+[33.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.sh'
+[33.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.bash'
+[33.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.zsh'
+[33.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/colcon-core/packages/go2_h264_repub)
+[33.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_h264_repub)
+[33.640s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub' for CMake module files
+[33.641s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub' for CMake config files
+[33.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_h264_repub', 'cmake_prefix_path')
+[33.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.ps1'
+[33.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.dsv'
+[33.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/hook/cmake_prefix_path.sh'
+[33.657s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib'
+[33.657s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/bin'
+[33.657s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib/pkgconfig/go2_h264_repub.pc'
+[33.657s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/lib/python3.8/site-packages'
+[33.658s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_h264_repub/bin'
+[33.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.ps1'
+[33.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.dsv'
+[33.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.sh'
+[33.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.bash'
+[33.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.zsh'
+[33.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_h264_repub/share/colcon-core/packages/go2_h264_repub)
+[33.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam' with build type 'ament_cmake'
+[33.678s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam'
+[33.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_slam
+[36.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_slam -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_slam
+[36.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_slam -- -j4 -l4
+[37.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_slam -- -j4 -l4
+[37.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_slam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_slam
+[37.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_slam)
+[37.243s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam' for CMake module files
+[37.244s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam' for CMake config files
+[37.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_slam', 'cmake_prefix_path')
+[37.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.ps1'
+[37.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_slam
+[37.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.dsv'
+[37.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.sh'
+[37.250s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/bin'
+[37.250s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/lib/pkgconfig/go2_slam.pc'
+[37.250s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/lib/python3.8/site-packages'
+[37.251s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/bin'
+[37.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.ps1'
+[37.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.dsv'
+[37.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.sh'
+[37.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.bash'
+[37.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.zsh'
+[37.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_slam/share/colcon-core/packages/go2_slam)
+[37.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_slam)
+[37.259s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam' for CMake module files
+[37.260s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam' for CMake config files
+[37.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_slam', 'cmake_prefix_path')
+[37.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.ps1'
+[37.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.dsv'
+[37.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.sh'
+[37.264s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/bin'
+[37.264s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/lib/pkgconfig/go2_slam.pc'
+[37.265s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/lib/python3.8/site-packages'
+[37.265s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_slam/bin'
+[37.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.ps1'
+[37.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.dsv'
+[37.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.sh'
+[37.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.bash'
+[37.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_slam/share/go2_slam/package.zsh'
+[37.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_slam/share/colcon-core/packages/go2_slam)
+[47.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_api -- -j4 -l4
+[47.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_api
+[48.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[48.110s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api' for CMake module files
+[48.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_api
+[48.112s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api' for CMake config files
+[48.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[48.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[48.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[48.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[48.117s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib'
+[48.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[48.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[48.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[48.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[48.120s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/bin'
+[48.120s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[48.121s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages'
+[48.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'pythonpath')
+[48.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.ps1'
+[48.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.dsv'
+[48.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.sh'
+[48.124s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/bin'
+[48.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.ps1'
+[48.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.dsv'
+[48.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.sh'
+[48.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.bash'
+[48.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.zsh'
+[48.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[48.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[48.132s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api' for CMake module files
+[48.133s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api' for CMake config files
+[48.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[48.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[48.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[48.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[48.138s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib'
+[48.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[48.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[48.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[48.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[48.141s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/bin'
+[48.141s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[48.141s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages'
+[48.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'pythonpath')
+[48.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.ps1'
+[48.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.dsv'
+[48.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/hook/pythonpath.sh'
+[48.144s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_api/bin'
+[48.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.ps1'
+[48.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.dsv'
+[48.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.sh'
+[48.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.bash'
+[48.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_api/share/unitree_api/package.zsh'
+[48.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[53.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_perception -- -j4 -l4
+[53.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_perception
+[53.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_perception)
+[53.122s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception' for CMake module files
+[53.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_perception
+[53.124s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception' for CMake config files
+[53.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'cmake_prefix_path')
+[53.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.ps1'
+[53.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.dsv'
+[53.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.sh'
+[53.129s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib'
+[53.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'ld_library_path_lib')
+[53.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.ps1'
+[53.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.dsv'
+[53.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.sh'
+[53.131s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/bin'
+[53.131s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib/pkgconfig/go2_perception.pc'
+[53.132s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages'
+[53.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'pythonpath')
+[53.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.ps1'
+[53.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.dsv'
+[53.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.sh'
+[53.135s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/bin'
+[53.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.ps1'
+[53.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.dsv'
+[53.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.sh'
+[53.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.bash'
+[53.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.zsh'
+[53.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_perception/share/colcon-core/packages/go2_perception)
+[53.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_perception)
+[53.142s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception' for CMake module files
+[53.142s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception' for CMake config files
+[53.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'cmake_prefix_path')
+[53.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.ps1'
+[53.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.dsv'
+[53.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.sh'
+[53.146s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib'
+[53.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'ld_library_path_lib')
+[53.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.ps1'
+[53.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.dsv'
+[53.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.sh'
+[53.149s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/bin'
+[53.149s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib/pkgconfig/go2_perception.pc'
+[53.149s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages'
+[53.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'pythonpath')
+[53.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.ps1'
+[53.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.dsv'
+[53.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/hook/pythonpath.sh'
+[53.152s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_perception/bin'
+[53.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.ps1'
+[53.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.dsv'
+[53.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.sh'
+[53.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.bash'
+[53.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.zsh'
+[53.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_perception/share/colcon-core/packages/go2_perception)
+[90.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_go -- -j4 -l4
+[90.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_go
+[90.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[90.382s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go' for CMake module files
+[90.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_go
+[90.384s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go' for CMake config files
+[90.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[90.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[90.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[90.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[90.390s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib'
+[90.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[90.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[90.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[90.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[90.393s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/bin'
+[90.394s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[90.394s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages'
+[90.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'pythonpath')
+[90.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.ps1'
+[90.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.dsv'
+[90.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.sh'
+[90.399s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/bin'
+[90.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.ps1'
+[90.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.dsv'
+[90.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.sh'
+[90.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.bash'
+[90.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.zsh'
+[90.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[90.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[90.409s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go' for CMake module files
+[90.411s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go' for CMake config files
+[90.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[90.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[90.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[90.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[90.415s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib'
+[90.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[90.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[90.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[90.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[90.419s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/bin'
+[90.419s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[90.419s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages'
+[90.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'pythonpath')
+[90.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.ps1'
+[90.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.dsv'
+[90.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/hook/pythonpath.sh'
+[90.423s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/unitree_go/bin'
+[90.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.ps1'
+[90.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.dsv'
+[90.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.sh'
+[90.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.bash'
+[90.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/unitree_go/share/unitree_go/package.zsh'
+[90.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[90.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api' with build type 'ament_cmake'
+[90.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api'
+[90.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[90.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_sport_api
+[93.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_sport_api -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_sport_api
+[93.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_sport_api -- -j4 -l4
+[106.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_sport_api -- -j4 -l4
+[106.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_sport_api': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_sport_api
+[106.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_sport_api)
+[106.853s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api' for CMake module files
+[106.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_sport_api' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_sport_api
+[106.855s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api' for CMake config files
+[106.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_sport_api', 'cmake_prefix_path')
+[106.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.ps1'
+[106.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.dsv'
+[106.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.sh'
+[106.862s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib'
+[106.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_sport_api', 'ld_library_path_lib')
+[106.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.ps1'
+[106.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.dsv'
+[106.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.sh'
+[106.866s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/bin'
+[106.866s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/pkgconfig/go2_sport_api.pc'
+[106.867s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/python3.8/site-packages'
+[106.868s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/bin'
+[106.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.ps1'
+[106.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.dsv'
+[106.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.sh'
+[106.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.bash'
+[106.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.zsh'
+[106.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_sport_api/share/colcon-core/packages/go2_sport_api)
+[106.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_sport_api)
+[106.879s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api' for CMake module files
+[106.881s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api' for CMake config files
+[106.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_sport_api', 'cmake_prefix_path')
+[106.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.ps1'
+[106.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.dsv'
+[106.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/cmake_prefix_path.sh'
+[106.886s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib'
+[106.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_sport_api', 'ld_library_path_lib')
+[106.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.ps1'
+[106.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.dsv'
+[106.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/hook/ld_library_path_lib.sh'
+[106.889s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/bin'
+[106.889s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/pkgconfig/go2_sport_api.pc'
+[106.890s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/lib/python3.8/site-packages'
+[106.890s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_sport_api/bin'
+[106.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.ps1'
+[106.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.dsv'
+[106.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.sh'
+[106.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.bash'
+[106.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_sport_api/share/go2_sport_api/package.zsh'
+[106.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_sport_api/share/colcon-core/packages/go2_sport_api)
+[106.896s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core' with build type 'ament_cmake'
+[106.897s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core'
+[106.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[106.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[106.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_core': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_core
+[110.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_core' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_core -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_core
+[110.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_core': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_core -- -j4 -l4
+[127.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_core' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_core -- -j4 -l4
+[127.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unitree/go2_ros2_ws/build/go2_core': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_core
+[127.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_core)
+[127.886s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core' for CMake module files
+[127.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unitree/go2_ros2_ws/build/go2_core' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api:/home/unitree/go2_ros2_ws/install/unitree_go:/home/unitree/go2_ros2_ws/install/unitree_api:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/go2_ros2_ws/install/go2_sport_api/lib:/home/unitree/go2_ros2_ws/install/unitree_go/lib:/home/unitree/go2_ros2_ws/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2_ros2_ws/install/unitree_go/lib/python3.8/site-packages:/home/unitree/go2_ros2_ws/install/unitree_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_core
+[127.889s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core' for CMake config files
+[127.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'cmake_prefix_path')
+[127.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.ps1'
+[127.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.dsv'
+[127.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.sh'
+[127.896s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib'
+[127.896s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/bin'
+[127.897s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib/pkgconfig/go2_core.pc'
+[127.898s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages'
+[127.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'pythonpath')
+[127.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.ps1'
+[127.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.dsv'
+[127.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.sh'
+[127.903s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/bin'
+[127.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.ps1'
+[127.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.dsv'
+[127.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.sh'
+[127.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.bash'
+[127.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.zsh'
+[127.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_core/share/colcon-core/packages/go2_core)
+[127.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_core)
+[127.915s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core' for CMake module files
+[127.916s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core' for CMake config files
+[127.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'cmake_prefix_path')
+[127.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.ps1'
+[127.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.dsv'
+[127.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/cmake_prefix_path.sh'
+[127.922s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib'
+[127.922s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/bin'
+[127.922s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib/pkgconfig/go2_core.pc'
+[127.922s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/lib/python3.8/site-packages'
+[127.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'pythonpath')
+[127.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.ps1'
+[127.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.dsv'
+[127.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/hook/pythonpath.sh'
+[127.927s] Level 1:colcon.colcon_core.environment:checking '/home/unitree/go2_ros2_ws/install/go2_core/bin'
+[127.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.ps1'
+[127.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.dsv'
+[127.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.sh'
+[127.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.bash'
+[127.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/unitree/go2_ros2_ws/install/go2_core/share/go2_core/package.zsh'
+[127.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unitree/go2_ros2_ws/install/go2_core/share/colcon-core/packages/go2_core)
+[127.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[127.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[127.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[127.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[127.950s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[127.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[127.951s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[127.996s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[127.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/go2_ros2_ws/install/local_setup.ps1'
+[128.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/go2_ros2_ws/install/_local_setup_util_ps1.py'
+[128.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/go2_ros2_ws/install/setup.ps1'
+[128.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/go2_ros2_ws/install/local_setup.sh'
+[128.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unitree/go2_ros2_ws/install/_local_setup_util_sh.py'
+[128.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/go2_ros2_ws/install/setup.sh'
+[128.010s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/go2_ros2_ws/install/local_setup.bash'
+[128.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/go2_ros2_ws/install/setup.bash'
+[128.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unitree/go2_ros2_ws/install/local_setup.zsh'
+[128.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unitree/go2_ros2_ws/install/setup.zsh'

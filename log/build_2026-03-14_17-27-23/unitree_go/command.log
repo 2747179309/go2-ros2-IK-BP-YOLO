@@ -1,0 +1,2 @@
+Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go
+Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '1': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go

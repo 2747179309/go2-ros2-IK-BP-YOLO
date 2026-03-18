@@ -1,0 +1,1 @@
+Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation
