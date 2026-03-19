@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_go -- -j4 -l4
+Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/unitree_go -- -j4 -l4
+Invoking command in '/home/unitree/go2_ros2_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_go
+Invoked command in '/home/unitree/go2_ros2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/unitree_go

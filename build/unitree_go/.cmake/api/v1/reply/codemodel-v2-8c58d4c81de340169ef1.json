@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "unitree_go__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/unitree/go2_ros2_ws/build/unitree_go/unitree_go__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "unitree_go",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0adb82e49e14954eba2b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go-fb721ea18a7ca68cfe3f.json",
+					"name" : "unitree_go",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__cpp-72a82aa07829377ca115.json",
+					"name" : "unitree_go__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__dds_connext_idl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__dds_connext_idl-444e03795c57b42e82b8.json",
+					"name" : "unitree_go__dds_connext_idl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unitree_go__py::@38a1591e0fd21223daaf",
+					"jsonFile" : "target-unitree_go__py-7018e6fa23e75459bbea.json",
+					"name" : "unitree_go__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__python-b1f78c2764afc3c938a6.json",
+					"name" : "unitree_go__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_generator_c-a4898e009217c78a32c4.json",
+					"name" : "unitree_go__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_c-0ba16f1ba11fa72b224f.json",
+					"name" : "unitree_go__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_c__pyext-8d853dadb5472f5e462f.json",
+					"name" : "unitree_go__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_cpp-3e8df504cd12835f3c9d.json",
+					"name" : "unitree_go__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_fastrtps_c-eb181ec3b04fe188417e.json",
+					"name" : "unitree_go__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_fastrtps_c__pyext-5d523de3a434a476066a.json",
+					"name" : "unitree_go__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_fastrtps_cpp-8c7e9ec0d9e8a82455af.json",
+					"name" : "unitree_go__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_introspection_c-2a937408bc2d4524ac11.json",
+					"name" : "unitree_go__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_introspection_c__pyext-951612ae543ab21aa4f6.json",
+					"name" : "unitree_go__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_introspection_cpp-0d3592e0b0d098e66af5.json",
+					"name" : "unitree_go__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go_uninstall-427c73b4ed7ce6ddd0cd.json",
+					"name" : "unitree_go_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unitree/go2_ros2_ws/build/unitree_go",
+		"source" : "/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

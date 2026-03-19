@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (go2_h264_repub) JobQueued: {'identifier': 'go2_h264_repub', 'dependencies': OrderedDict()}
+[0.000657] (go2_navigation) JobQueued: {'identifier': 'go2_navigation', 'dependencies': OrderedDict()}
+[0.000855] (go2_perception) JobQueued: {'identifier': 'go2_perception', 'dependencies': OrderedDict()}
+[0.001302] (go2_slam) JobQueued: {'identifier': 'go2_slam', 'dependencies': OrderedDict()}
+[0.001541] (unitree_api) JobQueued: {'identifier': 'unitree_api', 'dependencies': OrderedDict()}
+[0.001722] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.001800] (go2_sport_api) JobQueued: {'identifier': 'go2_sport_api', 'dependencies': OrderedDict([('unitree_api', '/home/unitree/go2_ros2_ws/install/unitree_api'), ('unitree_go', '/home/unitree/go2_ros2_ws/install/unitree_go')])}
+[0.001938] (go2_core) JobQueued: {'identifier': 'go2_core', 'dependencies': OrderedDict([('unitree_api', '/home/unitree/go2_ros2_ws/install/unitree_api'), ('unitree_go', '/home/unitree/go2_ros2_ws/install/unitree_go'), ('go2_sport_api', '/home/unitree/go2_ros2_ws/install/go2_sport_api')])}
+[0.002012] (unitree_api) JobStarted: {'identifier': 'unitree_api'}
+[0.011931] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.018344] (go2_h264_repub) JobStarted: {'identifier': 'go2_h264_repub'}
+[0.024414] (go2_navigation) JobStarted: {'identifier': 'go2_navigation'}
+[0.033631] (unitree_api) JobProgress: {'identifier': 'unitree_api', 'progress': 'cmake'}
+[0.034668] (unitree_api) Command: {'cmd': ['/usr/bin/cmake', '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_api', '-DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_api'], 'cwd': '/home/unitree/go2_ros2_ws/build/unitree_api', 'env': OrderedDict([('USER', 'unitree'), ('SSH_CLIENT', '192.168.0.128 58036 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/unitree'), ('OLDPWD', '/home/unitree/go2_ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('FISHROS_URL', 'http://mirror.fishros.com/install/'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'unitree'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '85'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/home/unitree/go2_ros2_ws/build/unitree_api'), ('SSH_CONNECTION', '192.168.0.128 58036 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.041639] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.042616] (unitree_go) Command: {'cmd': ['/usr/bin/cmake', '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/unitree_go', '-DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/unitree_go'], 'cwd': '/home/unitree/go2_ros2_ws/build/unitree_go', 'env': OrderedDict([('USER', 'unitree'), ('SSH_CLIENT', '192.168.0.128 58036 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/unitree'), ('OLDPWD', '/home/unitree/go2_ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('FISHROS_URL', 'http://mirror.fishros.com/install/'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'unitree'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '85'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/home/unitree/go2_ros2_ws/build/unitree_go'), ('SSH_CONNECTION', '192.168.0.128 58036 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.047457] (go2_h264_repub) JobProgress: {'identifier': 'go2_h264_repub', 'progress': 'cmake'}
+[0.048438] (go2_h264_repub) Command: {'cmd': ['/usr/bin/cmake', '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/unitree_pkgs/go2_h264_repub', '-DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_h264_repub'], 'cwd': '/home/unitree/go2_ros2_ws/build/go2_h264_repub', 'env': OrderedDict([('USER', 'unitree'), ('SSH_CLIENT', '192.168.0.128 58036 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/unitree'), ('OLDPWD', '/home/unitree/go2_ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('FISHROS_URL', 'http://mirror.fishros.com/install/'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'unitree'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '85'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/home/unitree/go2_ros2_ws/build/go2_h264_repub'), ('SSH_CONNECTION', '192.168.0.128 58036 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.056610] (go2_navigation) JobProgress: {'identifier': 'go2_navigation', 'progress': 'cmake'}
+[0.057682] (go2_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_navigation', '-DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_navigation'], 'cwd': '/home/unitree/go2_ros2_ws/build/go2_navigation', 'env': OrderedDict([('USER', 'unitree'), ('SSH_CLIENT', '192.168.0.128 58036 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/unitree'), ('OLDPWD', '/home/unitree/go2_ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('FISHROS_URL', 'http://mirror.fishros.com/install/'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'unitree'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '85'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/home/unitree/go2_ros2_ws/build/go2_navigation'), ('SSH_CONNECTION', '192.168.0.128 58036 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.099524] (-) TimerEvent: {}
+[0.151944] (unitree_api) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.152897] (go2_h264_repub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.162307] (unitree_go) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.170250] (go2_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199710] (-) TimerEvent: {}
+[0.254104] (go2_h264_repub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.258886] (unitree_api) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.263502] (go2_h264_repub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.266178] (unitree_go) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.269528] (unitree_api) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.272832] (go2_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.273731] (unitree_go) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.281067] (go2_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300024] (-) TimerEvent: {}
+[0.400490] (unitree_go) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.401028] (-) TimerEvent: {}
+[0.401970] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402863] (go2_h264_repub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.407801] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.410716] (unitree_api) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.411034] (go2_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.412299] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.412660] (go2_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501232] (-) TimerEvent: {}
+[0.531005] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.531661] (go2_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.546803] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.549536] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.550070] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.553215] (go2_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.553743] (go2_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.555057] (go2_h264_repub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.558265] (go2_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.564634] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.568758] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.569295] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.573910] (unitree_go) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.584330] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.585711] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.590773] (unitree_api) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.601393] (-) TimerEvent: {}
+[0.702085] (-) TimerEvent: {}
+[0.719771] (unitree_go) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.720291] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.720487] (go2_h264_repub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.720652] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.720784] (go2_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.720929] (go2_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.739560] (unitree_api) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.741756] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802293] (-) TimerEvent: {}
+[0.854789] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.869166] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.878347] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.879133] (go2_h264_repub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.885562] (go2_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.890443] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.891213] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.891649] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.898745] (go2_h264_repub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[0.899098] (go2_h264_repub) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.899255] (go2_h264_repub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.899402] (go2_h264_repub) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.899589] (go2_h264_repub) StderrLine: {'line': b'\n'}
+[0.899720] (go2_h264_repub) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.899839] (go2_h264_repub) StderrLine: {'line': b'  any of the following names:\n'}
+[0.899952] (go2_h264_repub) StderrLine: {'line': b'\n'}
+[0.900058] (go2_h264_repub) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.900164] (go2_h264_repub) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.900269] (go2_h264_repub) StderrLine: {'line': b'\n'}
+[0.900370] (go2_h264_repub) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.900475] (go2_h264_repub) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.900577] (go2_h264_repub) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.900677] (go2_h264_repub) StderrLine: {'line': b'  has been installed.\n'}
+[0.900775] (go2_h264_repub) StderrLine: {'line': b'\n'}
+[0.900877] (go2_h264_repub) StderrLine: {'line': b'\n'}
+[0.901077] (go2_h264_repub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.901221] (go2_h264_repub) StdoutLine: {'line': b'See also "/home/unitree/go2_ros2_ws/build/go2_h264_repub/CMakeFiles/CMakeOutput.log".\n'}
+[0.902361] (-) TimerEvent: {}
+[0.910025] (go2_h264_repub) CommandEnded: {'returncode': 1}
+[0.912493] (go2_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.912895] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.913107] (unitree_go) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.913782] (unitree_go) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.913933] (unitree_go) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.914067] (unitree_go) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.914188] (unitree_go) StderrLine: {'line': b'\n'}
+[0.914304] (unitree_go) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.914419] (unitree_go) StderrLine: {'line': b'  any of the following names:\n'}
+[0.914531] (unitree_go) StderrLine: {'line': b'\n'}
+[0.914640] (unitree_go) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.914748] (unitree_go) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.914857] (unitree_go) StderrLine: {'line': b'\n'}
+[0.914961] (unitree_go) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.915066] (unitree_go) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.915171] (unitree_go) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.915275] (unitree_go) StderrLine: {'line': b'  has been installed.\n'}
+[0.915380] (unitree_go) StderrLine: {'line': b'\n'}
+[0.915484] (unitree_go) StderrLine: {'line': b'\n'}
+[0.915692] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.915849] (unitree_go) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.915982] (unitree_go) StdoutLine: {'line': b'See also "/home/unitree/go2_ros2_ws/build/unitree_go/CMakeFiles/CMakeOutput.log".\n'}
+[0.916552] (go2_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.920678] (unitree_go) CommandEnded: {'returncode': 1}
+[0.939526] (unitree_api) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.940170] (unitree_api) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.940345] (unitree_api) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.940508] (unitree_api) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.940639] (unitree_api) StderrLine: {'line': b'\n'}
+[0.940761] (unitree_api) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.940881] (unitree_api) StderrLine: {'line': b'  any of the following names:\n'}
+[0.940997] (unitree_api) StderrLine: {'line': b'\n'}
+[0.941111] (unitree_api) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.941226] (unitree_api) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.941338] (unitree_api) StderrLine: {'line': b'\n'}
+[0.941448] (unitree_api) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.941558] (unitree_api) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.941666] (unitree_api) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.941773] (unitree_api) StderrLine: {'line': b'  has been installed.\n'}
+[0.941880] (unitree_api) StderrLine: {'line': b'\n'}
+[0.941986] (unitree_api) StderrLine: {'line': b'\n'}
+[0.942101] (go2_navigation) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.942281] (go2_navigation) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.942400] (go2_navigation) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.942515] (go2_navigation) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.942626] (go2_navigation) StderrLine: {'line': b'\n'}
+[0.942734] (go2_navigation) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.942842] (go2_navigation) StderrLine: {'line': b'  any of the following names:\n'}
+[0.942949] (go2_navigation) StderrLine: {'line': b'\n'}
+[0.943056] (go2_navigation) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.943163] (go2_navigation) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.943269] (go2_navigation) StderrLine: {'line': b'\n'}
+[0.943374] (go2_navigation) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.943483] (go2_navigation) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.943705] (go2_navigation) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.943835] (go2_navigation) StderrLine: {'line': b'  has been installed.\n'}
+[0.943946] (go2_navigation) StderrLine: {'line': b'\n'}
+[0.944056] (go2_navigation) StderrLine: {'line': b'\n'}
+[0.944165] (go2_navigation) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.944313] (go2_navigation) StdoutLine: {'line': b'See also "/home/unitree/go2_ros2_ws/build/go2_navigation/CMakeFiles/CMakeOutput.log".\n'}
+[0.944433] (unitree_api) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.944660] (unitree_api) StdoutLine: {'line': b'See also "/home/unitree/go2_ros2_ws/build/unitree_api/CMakeFiles/CMakeOutput.log".\n'}
+[0.960593] (go2_h264_repub) JobEnded: {'identifier': 'go2_h264_repub', 'rc': 1}
+[0.964555] (go2_navigation) JobEnded: {'identifier': 'go2_navigation', 'rc': 'SIGINT'}
+[0.965120] (unitree_api) JobEnded: {'identifier': 'unitree_api', 'rc': 'SIGINT'}
+[0.965607] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 'SIGINT'}
+[0.975604] (go2_perception) JobSkipped: {'identifier': 'go2_perception'}
+[0.975797] (go2_slam) JobSkipped: {'identifier': 'go2_slam'}
+[0.975902] (go2_sport_api) JobSkipped: {'identifier': 'go2_sport_api'}
+[0.976008] (go2_core) JobSkipped: {'identifier': 'go2_core'}
+[0.976105] (-) EventReactorShutdown: {}

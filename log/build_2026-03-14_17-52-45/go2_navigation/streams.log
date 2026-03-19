@@ -1,0 +1,41 @@
+[0.056s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+[0.110s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.197s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.683s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.866s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.872s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.872s] -- Added test 'lint_cmake' to check CMake code style
+[0.872s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.872s] -- Added test 'xmllint' to check XML markup files
+[0.877s] -- Configuring done
+[0.883s] -- Generating done
+[0.938s] -- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_navigation
+[1.001s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_navigation -- -j4 -l4
+[1.017s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation
+[1.055s] -- Install configuration: ""
+[1.055s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config
+[1.056s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml
+[1.056s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps
+[1.057s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.yaml
+[1.057s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.pgm
+[1.057s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch
+[1.058s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/go2_nav2.launch.py
+[1.058s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps
+[1.058s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.yaml
+[1.059s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.pgm
+[1.059s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/package_run_dependencies/go2_navigation
+[1.059s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/parent_prefix_path/go2_navigation
+[1.060s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.sh
+[1.060s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.sh
+[1.061s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.dsv
+[1.061s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.bash
+[1.061s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.sh
+[1.062s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.zsh
+[1.062s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.dsv
+[1.062s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.dsv
+[1.063s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/packages/go2_navigation
+[1.063s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig.cmake
+[1.064s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig-version.cmake
+[1.064s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.xml
+[1.120s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_navigation

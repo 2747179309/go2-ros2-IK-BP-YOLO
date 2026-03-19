@@ -1,0 +1,106 @@
+[0.025s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_perception
+[0.121s] -- The C compiler identification is GNU 9.4.0
+[0.209s] -- The CXX compiler identification is GNU 9.4.0
+[0.217s] -- Check for working C compiler: /usr/bin/cc
+[0.384s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.386s] -- Detecting C compiler ABI info
+[0.534s] -- Detecting C compiler ABI info - done
+[0.553s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.731s] -- Detecting CXX compiler ABI info
+[0.895s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Detecting CXX compile features
+[0.915s] -- Detecting CXX compile features - done
+[0.920s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.966s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.372s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.390s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.398s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.495s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.689s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.748s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.996s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.998s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.000s] -- Looking for pthread.h
+[2.300s] -- Looking for pthread.h - found
+[2.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.664s] -- Looking for pthread_create in pthreads
+[3.049s] -- Looking for pthread_create in pthreads - not found
+[3.052s] -- Looking for pthread_create in pthread
+[3.335s] -- Looking for pthread_create in pthread - found
+[3.338s] -- Found Threads: TRUE  
+[3.942s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.200s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.556s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[4.612s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[5.633s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[5.958s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.322s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.329s] -- Configured cppcheck include dirs: /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception/include
+[6.335s] -- Configured cppcheck exclude dirs and/or files: 
+[6.338s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.338s] -- Configured cpplint exclude dirs and/or files: 
+[6.340s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.344s] -- Added test 'lint_cmake' to check CMake code style
+[6.346s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.356s] -- Added test 'uncrustify' to check C / C++ code style
+[6.357s] -- Configured uncrustify additional arguments: 
+[6.358s] -- Added test 'xmllint' to check XML markup files
+[6.377s] -- Configuring done
+[6.506s] -- Generating done
+[6.551s] -- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_perception
+[6.603s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ros2_ws/src/go2_ros2_toolbox/go2_ros2_toolbox-main/go2_perception -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ros2_ws/install/go2_perception
+[6.604s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_perception -- -j4 -l4
+[6.853s] [35m[1mScanning dependencies of target pointcloud_to_laserscan_node[0m
+[6.855s] [35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[6.868s] [35m[1mScanning dependencies of target cloud_accumulation[0m
+[7.120s] [ 33%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[7.120s] [ 33%] [32mBuilding CXX object CMakeFiles/cloud_accumulation.dir/src/cloud_accumulation.cpp.o[0m
+[7.283s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[23.349s] [ 66%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[23.981s] [ 66%] Built target pointcloud_to_laserscan_node
+[35.375s] [ 83%] [32m[1mLinking CXX executable cloud_accumulation[0m
+[36.737s] [ 83%] Built target cloud_accumulation
+[50.163s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[51.121s] [100%] Built target pointcloud_to_laserscan
+[51.144s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_perception -- -j4 -l4
+[51.149s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_perception': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_perception
+[51.168s] -- Install configuration: ""
+[51.168s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+[51.169s] -- Set runtime path of "/home/unitree/go2_ros2_ws/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node" to ""
+[51.169s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so
+[51.181s] -- Set runtime path of "/home/unitree/go2_ros2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+[51.181s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/lib/go2_perception/cloud_accumulation
+[51.185s] -- Set runtime path of "/home/unitree/go2_ros2_ws/install/go2_perception/lib/go2_perception/cloud_accumulation" to ""
+[51.185s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/launch
+[51.185s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/launch/go2_pointcloud_process.launch.py
+[51.185s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.sh
+[51.186s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.dsv
+[51.186s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages/go2_perception
+[51.186s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages/go2_perception/__init__.py
+[51.241s] Listing '/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages/go2_perception'...
+[51.241s] Compiling '/home/unitree/go2_ros2_ws/install/go2_perception/lib/python3.8/site-packages/go2_perception/__init__.py'...
+[51.252s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+[51.252s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+[51.252s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+[51.253s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+[51.253s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/path.sh
+[51.253s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/environment/path.dsv
+[51.253s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/local_setup.bash
+[51.254s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/local_setup.sh
+[51.254s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/local_setup.zsh
+[51.254s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/local_setup.dsv
+[51.254s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.dsv
+[51.255s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+[51.255s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+[51.255s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+[51.256s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+[51.256s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_perception/share/go2_perception/package.xml
+[51.262s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_perception

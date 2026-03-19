@@ -1,0 +1,22 @@
+[0.053s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_h264_repub -- -j4 -l4
+[0.186s] [100%] Built target go2_h264_repub
+[0.223s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ros2_ws/build/go2_h264_repub -- -j4 -l4
+[0.225s] Invoking command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_h264_repub
+[0.260s] -- Install configuration: ""
+[0.260s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/lib/go2_h264_repub/go2_h264_repub
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/ament_index/resource_index/package_run_dependencies/go2_h264_repub
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/ament_index/resource_index/parent_prefix_path/go2_h264_repub
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/environment/ament_prefix_path.sh
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/environment/ament_prefix_path.dsv
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/environment/path.sh
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/environment/path.dsv
+[0.261s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/local_setup.bash
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/local_setup.sh
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/local_setup.zsh
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/local_setup.dsv
+[0.262s] -- Installing: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.dsv
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/ament_index/resource_index/packages/go2_h264_repub
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/cmake/go2_h264_repubConfig.cmake
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/cmake/go2_h264_repubConfig-version.cmake
+[0.262s] -- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_h264_repub/share/go2_h264_repub/package.xml
+[0.308s] Invoked command in '/home/unitree/go2_ros2_ws/build/go2_h264_repub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ros2_ws/build/go2_h264_repub

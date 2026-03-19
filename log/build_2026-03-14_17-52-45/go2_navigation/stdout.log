@@ -1,0 +1,37 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/unitree/go2_ros2_ws/build/go2_navigation
+-- Install configuration: ""
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/config/nav2_params.yaml
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.yaml
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.pgm
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/launch/go2_nav2.launch.py
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.yaml
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/maps/map.pgm
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/package_run_dependencies/go2_navigation
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/parent_prefix_path/go2_navigation
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.sh
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/environment/path.dsv
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.bash
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.sh
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.zsh
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/local_setup.dsv
+-- Installing: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.dsv
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/ament_index/resource_index/packages/go2_navigation
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig.cmake
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/cmake/go2_navigationConfig-version.cmake
+-- Up-to-date: /home/unitree/go2_ros2_ws/install/go2_navigation/share/go2_navigation/package.xml
