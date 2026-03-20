@@ -44,13 +44,20 @@ source install/setup.bash
 
 # Launch the robot
 ros2 launch go2_core go2_startup.launch.py
-SLAM Operations
-Map Serialization: Save generated maps for later use
-Map Deserialization: Load previously saved maps
-Navigation
+
+# SLAM Operations
+Map Serialization: 
+Save generated maps for later use
+
+Map Deserialization: 
+Load previously saved maps
+# Navigation
 Open RViz2
+
 Select the 'Navigation2 Goal' button
+
 Click on the map to set navigation goals
+
 Drag to adjust the target orientation
 
 ## Features
