@@ -1,0 +1,5 @@
+train: C:\Users\27471\PycharmProjects\PythonProject\dataset\dataset\images\train
+val: C:\Users\27471\PycharmProjects\PythonProject\dataset\dataset\images\val
+
+nc: 1
+names: ['apple']
