@@ -1,4 +1,4 @@
-# This project contains two parts: Raspberry Pi 5 (pi_code) + Go2 (others)
+# This project contains 3 parts: Raspberry Pi 5 (pi_code) + Go2 (Unitreego2) + Yolo training (yolo_training_code)
 Raspberry Pi 5 is for controling xArm 2.0 to grasp apples which are identified by YOLOv8
 
 Go2 is for mapping and navigation.
